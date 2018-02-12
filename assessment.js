@@ -50,7 +50,9 @@ var responseCreator = function(param){
   }
   else {
       colorResponse = "What is your favorite color?"
+
   }
+  return colorResponse;
 }
 
 
@@ -64,7 +66,7 @@ sum(5, 6);
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
 function greeter (str, num){
-    return "Hi my name is " + str + " and I am " + num + " years old";
+    return "Hi! I am " + str + " and I am " + num + " years old";
     
 }
  greeter("Carter", 21); 
